@@ -1,0 +1,27 @@
+thead{
+    margin: 15px;
+    background: #cdcdcd;
+}
+table{
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+th {
+    border: solid 1px #000;
+    cursor: pointer;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination li{
+    list-style-type: none;
+    margin: 0 5px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+.active a{
+    color: black;
+    cursor: auto !important;
+}
